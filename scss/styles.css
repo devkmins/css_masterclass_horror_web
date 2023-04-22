@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@300;500;600&family=Inter:wght@300;400;500;700&family=Nanum+Myeongjo:wght@400;700;800&family=Open+Sans:wght@400;500&family=Playfair+Display:wght@400;500;700&family=Roboto:wght@300;400;500&family=Source+Sans+Pro:wght@300;400&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.section {
+  width: 44.5%;
+  background-color: #f0f0f0;
+  overflow: scroll;
+}
+.section .container {
+  padding: 4.5em;
+}
+.section header {
+  width: 30%;
+  color: #e6463c;
+  font-weight: 400;
+  font-size: 4.5em;
+  padding-bottom: 0.5em;
+}
+.section p {
+  color: #e6463c;
+}
+.section .first__explain {
+  font-size: 1.5em;
+  font-weight: 400;
+  width: 70%;
+}
+.section .second__explain {
+  font-size: 1.1em;
+  font-weight: 300;
+  width: 80%;
+}
+.section nav a,
+.section .info {
+  color: black;
+}
+.section nav {
+  width: 75%;
+  padding: 10px 0;
+}
+.section nav a {
+  opacity: 0.5;
+  padding-right: 0.75em;
+  font-size: 0.9em;
+}
+.section .info {
+  opacity: 0.4;
+  font-size: 0.75em;
+  width: 80%;
+}
+
+.main {
+  width: 55.5%;
+  background-color: #e6463c;
+  overflow: scroll;
+}
+.main .fixed {
+  display: flex;
+  justify-content: center;
+  width: 55.5%;
+  position: fixed;
+  padding: 3.5em 0;
+  border-bottom: 1px solid #cf4036;
+  background-color: #e6463c;
+}
+.main .fixed div button {
+  padding: 0;
+  margin: 1px 4px;
+  border: none;
+  font-size: 1em;
+  background-color: #e6463c;
+  color: #76140f;
+  border-bottom: 1px solid #76140f;
+  cursor: pointer;
+}
+.main .fixed div button:hover {
+  color: white;
+  border-color: white;
+}
+.main .fixed span,
+.main .fixed div {
+  color: white;
+  font-size: 1em;
+}
+.main .dummy {
+  padding-bottom: 5em;
+}
+.main .content {
+  padding: 5em 5em;
+  border-bottom: 1px solid #d54138;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.main .content .movie__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5em;
+}
+.main .content .movie__header .movie__header-name {
+  font-size: 3em;
+  font-weight: 600;
+  color: white;
+}
+.main .content .movie__header .movie__header-producer {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  color: white;
+  font-size: 0.9em;
+  width: 50%;
+}
+.main .content .movie__iframe {
+  margin-bottom: 3em;
+  position: relative;
+  padding-top: 75%;
+  width: 100%;
+  height: 0;
+}
+.main .content .movie__iframe iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.main .content .movie__info {
+  color: white;
+  font-size: 1.15em;
+  font-weight: 300;
+  margin-bottom: 2em;
+}
+.main .content .movie__comments {
+  display: flex;
+  justify-content: space-between;
+  color: #871f19;
+  font-size: 1.2em;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
